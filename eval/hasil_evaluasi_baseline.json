@@ -1,0 +1,531 @@
+[
+  {
+    "id": "e01-kmb-pneumonia",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 1,
+    "redflag_ok": false,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 4.521,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 0.6666666666666666,
+    "ai_precision": 1,
+    "ai_labels": [
+      "Bersihan jalan napas tidak efektif",
+      "Pola napas tidak efektif",
+      "Gangguan pertukaran gas",
+      "Risiko defisit nutrisi"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Bersihan jalan napas tidak efektif",
+      "Pola napas tidak efektif",
+      "Hipertermia"
+    ],
+    "retrieval_top3": [
+      "Bersihan jalan napas tidak efektif",
+      "Gangguan pertukaran gas",
+      "Hipertermia"
+    ]
+  },
+  {
+    "id": "e02-maternitas-post-sc",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 1,
+    "redflag_ok": true,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 4.403,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 1,
+    "ai_precision": 0.75,
+    "ai_labels": [
+      "Nyeri akut",
+      "Risiko infeksi",
+      "Gangguan mobilitas fisik",
+      "Ansietas"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Nyeri akut"
+    ],
+    "retrieval_top3": [
+      "Risiko gangguan neurovaskular perifer",
+      "Nyeri akut",
+      "Risiko infeksi"
+    ]
+  },
+  {
+    "id": "e03-anak-diare",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 1,
+    "redflag_ok": true,
+    "model": "openai/gpt-oss-20b",
+    "seconds": 2.223,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 1,
+    "ai_precision": 0.6666666666666666,
+    "ai_labels": [
+      "Hipovolemia",
+      "Diare",
+      "Hipertermia"
+    ],
+    "dropped": 1,
+    "expected": [
+      "Hipovolemia",
+      "Diare"
+    ],
+    "retrieval_top3": [
+      "Hipertermia",
+      "Diare",
+      "Hipovolemia"
+    ]
+  },
+  {
+    "id": "e04-gadar-nyeri-dada",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 0.3333333333333333,
+    "redflag_ok": true,
+    "model": "openai/gpt-oss-20b",
+    "seconds": 3.679,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 0.6666666666666666,
+    "ai_precision": 1,
+    "ai_labels": [
+      "Nyeri akut",
+      "Gangguan pertukaran gas",
+      "Penurunan curah jantung"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Gangguan pertukaran gas",
+      "Perfusi perifer tidak efektif",
+      "Nyeri akut"
+    ],
+    "retrieval_top3": [
+      "Gangguan pertukaran gas",
+      "Gangguan rasa nyaman",
+      "Risiko penurunan curah jantung"
+    ]
+  },
+  {
+    "id": "e05-kmb-dm",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 0.6666666666666666,
+    "redflag_ok": false,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 4.65,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 0.6666666666666666,
+    "ai_precision": 1,
+    "ai_labels": [
+      "Ketidakstabilan kadar glukosa darah",
+      "Risiko infeksi",
+      "Gangguan integritas kulit/jaringan"
+    ],
+    "dropped": 1,
+    "expected": [
+      "Ketidakstabilan kadar glukosa darah",
+      "Manajemen kesehatan tidak efektif",
+      "Gangguan integritas kulit/jaringan"
+    ],
+    "retrieval_top3": [
+      "Hipovolemia",
+      "Ketidakstabilan kadar glukosa darah",
+      "Risiko ketidakstabilan kadar glukosa darah"
+    ]
+  },
+  {
+    "id": "e06-kmb-fraktur",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 1,
+    "redflag_ok": true,
+    "model": "openai/gpt-oss-20b",
+    "seconds": 1.926,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 1,
+    "ai_precision": 0.6666666666666666,
+    "ai_labels": [
+      "Nyeri akut",
+      "Gangguan mobilitas fisik",
+      "Risiko defisit perawatan diri"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Nyeri akut",
+      "Gangguan mobilitas fisik"
+    ],
+    "retrieval_top3": [
+      "Gangguan mobilitas fisik",
+      "Risiko defisit perawatan diri",
+      "Risiko gangguan neurovaskular perifer"
+    ]
+  },
+  {
+    "id": "e07-kmb-chf",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 0.6666666666666666,
+    "redflag_ok": false,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 4.21,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 0.6666666666666666,
+    "ai_precision": 0.75,
+    "ai_labels": [
+      "Hipervolemia",
+      "Penurunan curah jantung",
+      "Gangguan pertukaran gas",
+      "Risiko ketidakseimbangan cairan"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Hipervolemia",
+      "Gangguan pertukaran gas",
+      "Intoleransi aktivitas"
+    ],
+    "retrieval_top3": [
+      "Hipervolemia",
+      "Penurunan curah jantung",
+      "Gangguan pertukaran gas"
+    ]
+  },
+  {
+    "id": "e08-kmb-stroke",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 0.3333333333333333,
+    "redflag_ok": true,
+    "model": "openai/gpt-oss-20b",
+    "seconds": 1.901,
+    "ai_hit1": false,
+    "ai_hit3": true,
+    "ai_recall": 0.3333333333333333,
+    "ai_precision": 1,
+    "ai_labels": [
+      "Risiko aspirasi",
+      "Gangguan komunikasi verbal"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Gangguan menelan",
+      "Gangguan mobilitas fisik",
+      "Gangguan komunikasi verbal"
+    ],
+    "retrieval_top3": [
+      "Gangguan komunikasi verbal",
+      "Risiko aspirasi",
+      "Berat badan lebih"
+    ]
+  },
+  {
+    "id": "e09-mat-menyusui",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 0.5,
+    "redflag_ok": true,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 3.723,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 1,
+    "ai_precision": 0.75,
+    "ai_labels": [
+      "Menyusui tidak efektif",
+      "Defisit pengetahuan",
+      "Nyeri akut",
+      "Gangguan integritas kulit/jaringan"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Menyusui tidak efektif",
+      "Defisit pengetahuan"
+    ],
+    "retrieval_top3": [
+      "Ikterik neonatus",
+      "Menyusui tidak efektif"
+    ]
+  },
+  {
+    "id": "e10-mat-preeklampsia",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 0.5,
+    "redflag_ok": false,
+    "model": "openai/gpt-oss-20b",
+    "seconds": 1.872,
+    "ai_hit1": false,
+    "ai_hit3": true,
+    "ai_recall": 0.5,
+    "ai_precision": 0.5,
+    "ai_labels": [
+      "Risiko penurunan curah jantung",
+      "Ansietas"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Risiko cedera",
+      "Ansietas"
+    ],
+    "retrieval_top3": [
+      "Ansietas",
+      "Defisit pengetahuan",
+      "Gangguan rasa nyaman"
+    ]
+  },
+  {
+    "id": "e11-anak-dbd",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 0.5,
+    "redflag_ok": false,
+    "error": "ai_rate_limited",
+    "expected": [
+      "Hipertermia",
+      "Risiko perdarahan"
+    ],
+    "retrieval_top3": [
+      "Hipertermia",
+      "Nausea",
+      "Risiko hipovolemia"
+    ]
+  },
+  {
+    "id": "e12-anak-bronkopneumonia",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 1,
+    "redflag_ok": true,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 4.561,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 0.6666666666666666,
+    "ai_precision": 0.75,
+    "ai_labels": [
+      "Pola napas tidak efektif",
+      "Gangguan pertukaran gas",
+      "Hipertermia",
+      "Hipovolemia"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Bersihan jalan napas tidak efektif",
+      "Gangguan pertukaran gas",
+      "Pola napas tidak efektif"
+    ],
+    "retrieval_top3": [
+      "Hipertermia",
+      "Pola napas tidak efektif",
+      "Bersihan jalan napas tidak efektif"
+    ]
+  },
+  {
+    "id": "e13-neonatus-ikterik",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 0.5,
+    "redflag_ok": true,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 3.537,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 0.5,
+    "ai_precision": 0.5,
+    "ai_labels": [
+      "Ikterik neonatus",
+      "Pola napas tidak efektif"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Ikterik neonatus",
+      "Risiko defisit nutrisi"
+    ],
+    "retrieval_top3": [
+      "Ikterik neonatus",
+      "Risiko ikterik neonatus",
+      "Pola napas tidak efektif"
+    ]
+  },
+  {
+    "id": "e14-gadar-trauma",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 0.3333333333333333,
+    "redflag_ok": true,
+    "model": "openai/gpt-oss-20b",
+    "seconds": 3.402,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 0.3333333333333333,
+    "ai_precision": 0.25,
+    "ai_labels": [
+      "Hipovolemia",
+      "Risiko syok",
+      "Penurunan curah jantung",
+      "Risiko perdarahan"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Hipovolemia",
+      "Perfusi perifer tidak efektif",
+      "Gangguan integritas kulit/jaringan"
+    ],
+    "retrieval_top3": [
+      "Hipovolemia",
+      "Risiko penurunan curah jantung",
+      "Risiko perdarahan"
+    ]
+  },
+  {
+    "id": "e15-gadar-asma",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 1,
+    "redflag_ok": true,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 4.507,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 1,
+    "ai_precision": 0.75,
+    "ai_labels": [
+      "Gangguan pertukaran gas",
+      "Pola napas tidak efektif",
+      "Ansietas",
+      "Risiko perfusi perifer tidak efektif"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Gangguan pertukaran gas",
+      "Pola napas tidak efektif"
+    ],
+    "retrieval_top3": [
+      "Pola napas tidak efektif",
+      "Gangguan pertukaran gas",
+      "Gangguan ventilasi spontan"
+    ]
+  },
+  {
+    "id": "e16-jiwa-halusinasi",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 0.5,
+    "redflag_ok": true,
+    "model": "openai/gpt-oss-20b",
+    "seconds": 1.952,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 0.5,
+    "ai_precision": 0.3333333333333333,
+    "ai_labels": [
+      "Isolasi sosial",
+      "Ansietas",
+      "Gangguan komunikasi verbal"
+    ],
+    "dropped": 1,
+    "expected": [
+      "Gangguan persepsi sensori",
+      "Isolasi sosial"
+    ],
+    "retrieval_top3": [
+      "Isolasi sosial"
+    ]
+  },
+  {
+    "id": "e17-jiwa-rpk",
+    "retrieval_hit3": false,
+    "retrieval_recall10": 0,
+    "redflag_ok": false,
+    "model": "openai/gpt-oss-20b",
+    "seconds": 1.996,
+    "ai_hit1": false,
+    "ai_hit3": true,
+    "ai_recall": 1,
+    "ai_precision": 0.3333333333333333,
+    "ai_labels": [
+      "Ansietas",
+      "Risiko penurunan curah jantung",
+      "Risiko perilaku kekerasan"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Risiko perilaku kekerasan"
+    ],
+    "retrieval_top3": [
+      "Risiko penurunan curah jantung"
+    ]
+  },
+  {
+    "id": "e18-jiwa-hdr",
+    "retrieval_hit3": false,
+    "retrieval_recall10": 0,
+    "redflag_ok": true,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 3.488,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 1,
+    "ai_precision": 0.6666666666666666,
+    "ai_labels": [
+      "Harga diri rendah situasional",
+      "Isolasi sosial",
+      "Risiko bunuh diri"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Harga diri rendah situasional",
+      "Isolasi sosial"
+    ],
+    "retrieval_top3": []
+  },
+  {
+    "id": "e19-komunitas-ht",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 0.5,
+    "redflag_ok": true,
+    "model": "qwen/qwen3.8-27b",
+    "seconds": 4.754,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 1,
+    "ai_precision": 1,
+    "ai_labels": [
+      "Manajemen kesehatan tidak efektif",
+      "Defisit pengetahuan",
+      "Ketidakpatuhan"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Manajemen kesehatan tidak efektif",
+      "Defisit pengetahuan"
+    ],
+    "retrieval_top3": [
+      "Diare",
+      "Risiko ketidakstabilan kadar glukosa darah",
+      "Defisit pengetahuan"
+    ]
+  },
+  {
+    "id": "e20-gerontik-jatuh",
+    "retrieval_hit3": true,
+    "retrieval_recall10": 1,
+    "redflag_ok": true,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 4.253,
+    "ai_hit1": true,
+    "ai_hit3": true,
+    "ai_recall": 1,
+    "ai_precision": 0.25,
+    "ai_labels": [
+      "Risiko jatuh",
+      "Ansietas",
+      "Defisit perawatan diri",
+      "Defisit pengetahuan"
+    ],
+    "dropped": 0,
+    "expected": [
+      "Risiko jatuh"
+    ],
+    "retrieval_top3": [
+      "Risiko jatuh",
+      "Risiko penurunan curah jantung",
+      "Diare"
+    ]
+  }
+]
