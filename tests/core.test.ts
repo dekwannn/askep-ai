@@ -164,3 +164,11 @@ test('tanda bahaya bertingkat, sesuai usia dan stase', async () => {
   assert.deepEqual(flagsOf({ objective: 'Pasien tidak memukul atau mengancam' }), [])
   assert.ok(!flagsOf({ objective: 'Pasien sulit berbicara dan bicaranya tidak jelas' }).some(f => f.id === 'sesak-berat'))
 })
+
+test('istilah klinis tidak dianggap alamat, alamat sungguhan tetap ditolak', () => {
+  const withText = (t: string) => ({ ...emptyCase(), student_diagnosis: t })
+  for (const ok of ['Bersihan jalan napas tidak efektif', 'Bersihan Jalan Napas Tidak Efektif', 'Pasien belum bisa berjalan ke kamar mandi'])
+    assert.deepEqual(privacyIssues(withText(ok)), [], ok)
+  for (const bad of ['Tinggal di Jl. Sudirman', 'Rumah di Jalan Merdeka Barat No. 12', 'gg. mawar'])
+    assert.ok(privacyIssues(withText(bad)).some(i => i.includes('alamat')), bad)
+})

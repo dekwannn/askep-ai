@@ -9,7 +9,10 @@ const IDENTIFIER_RULES: Array<[RegExp, string]> = [
   [/https?:\/\/\S+/i, 'Terdeteksi tautan/URL.'],
   [/\b(?:Tn|Ny|Nn|An|By|Sdr|Sdri)\.?\s+[A-Z][a-z]{2,}/, 'Terdeteksi nama lengkap. Gunakan inisial saja (mis. Tn. K).'],
   [/\b(?:no\.?\s*rm|rekam\s*medis|nik|ktp|bpjs)\s*[:#.-]?\s*\d/i, 'Terdeteksi nomor rekam medis/NIK/BPJS.'],
-  [/\b(?:Jl\.|Jalan|Gg\.|Gang)\s+[\p{L}\d]+[\p{L}\d\s.,/-]{5,}/iu, 'Terdeteksi alamat jalan.'],
+  // Alamat: singkatan "Jl./Gg. Nama", atau "Jalan/Gang Nama ... No. 5". Istilah klinis seperti
+  // "bersihan jalan napas" tidak boleh terdeteksi sebagai alamat.
+  [/\b(?:jl|gg)\.\s*\p{L}{3,}/iu, 'Terdeteksi alamat jalan.'],
+  [/\b(?:jalan|gang)\s+(?!napas\b)\p{L}+(?:\s+\p{L}+){0,3}\s+(?:no\.?|nomor)\s*\d/iu, 'Terdeteksi alamat jalan.'],
 ]
 
 const LABEL_RE = /^(?:Tn|Ny|Nn|An|By|Sdr|Sdri)\.?\s?[A-Z](?:\.\s?[A-Z]){0,2}\.?$/
