@@ -41,7 +41,7 @@ fakta kasus sebagai bukti**, data yang masih kurang, dan pertanyaan reflektif se
 | Frontend | Next.js 16 (App Router), React 19, CSS murni |
 | Backend | Next.js Route Handler (`/api/analyze`, Node.js runtime) |
 | Database / storage | Tidak ada database server; riwayat disimpan di `localStorage` browser pengguna |
-| AI | Retrieval bank data NERSCARE (TypeScript) + Groq API, model default `openai/gpt-oss-120b` (structured output JSON Schema strict) |
+| AI | Retrieval bank data NERSCARE (TypeScript) + Groq API: `openai/gpt-oss-120b`, cadangan otomatis `openai/gpt-oss-20b` → `qwen/qwen3.8-27b` (structured output JSON Schema) |
 | Hosting | Vercel (rekomendasi) |
 
 ## AI Implementation
