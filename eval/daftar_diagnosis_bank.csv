@@ -1,0 +1,84 @@
+﻿id;diagnosis;jenis;domain
+NC-DX-001;Ansietas;Aktual;Istirahat & psikososial
+NC-DX-002;Bersihan jalan napas tidak efektif;Aktual;Respirasi
+NC-DX-003;Defisit pengetahuan;Aktual;Perilaku kesehatan
+NC-DX-004;Defisit perawatan diri;Aktual;Aktivitas & keamanan
+NC-DX-005;Gangguan citra tubuh;Aktual;Istirahat & psikososial
+NC-DX-006;Gangguan eliminasi urin;Aktual;Cairan & eliminasi urin
+NC-DX-007;Gangguan pertukaran gas;Aktual;Respirasi
+NC-DX-008;Hipertermia;Aktual;Termoregulasi & infeksi
+NC-DX-009;Hipovolemia;Aktual;Cairan & eliminasi urin
+NC-DX-010;Risiko hipovolemia;Risiko;Cairan & eliminasi urin
+NC-DX-011;Hipervolemia;Aktual;Cairan & eliminasi urin
+NC-DX-012;Kesiapan persalinan;Promosi;Maternitas & neonatus
+NC-DX-013;Kesiapan peningkatan manajemen kesehatan;Promosi;Perilaku kesehatan
+NC-DX-014;Kesiapan peningkatan pengetahuan;Promosi;Perilaku kesehatan
+NC-DX-015;Konstipasi;Aktual;Nutrisi & pencernaan
+NC-DX-016;Menyusui tidak efektif;Aktual;Maternitas & neonatus
+NC-DX-017;Nyeri akut;Aktual;Nyeri & kenyamanan
+NC-DX-018;Nyeri kronis;Aktual;Nyeri & kenyamanan
+NC-DX-019;Risiko hipotermia;Risiko;Termoregulasi & infeksi
+NC-DX-020;Risiko infeksi;Risiko;Termoregulasi & infeksi
+NC-DX-021;Retensi urin;Aktual;Cairan & eliminasi urin
+NC-DX-022;Pencapaian peran menjadi orang tua;Promosi;Keluarga
+NC-DX-023;Pola napas tidak efektif;Aktual;Respirasi
+NC-DX-024;Risiko perdarahan;Risiko;Kardiovaskular & metabolik
+NC-DX-025;Risiko perfusi perifer tidak efektif;Risiko;Kardiovaskular & metabolik
+NC-DX-026;Risiko termoregulasi tidak efektif;Risiko;Termoregulasi & infeksi
+NC-DX-027;Berat badan lebih;Aktual;Nutrisi & pencernaan
+NC-DX-028;Risiko berat badan lebih;Risiko;Nutrisi & pencernaan
+NC-DX-029;Risiko defisit nutrisi;Risiko;Nutrisi & pencernaan
+NC-DX-030;Risiko ketidakseimbangan cairan;Risiko;Cairan & eliminasi urin
+NC-DX-031;Termoregulasi tidak efektif;Aktual;Termoregulasi & infeksi
+NC-DX-032;Gangguan integritas kulit/jaringan;Aktual;Luka & pascaoperasi
+NC-DX-033;Risiko gangguan integritas kulit/jaringan;Risiko;Aktivitas & keamanan
+NC-DX-034;Gangguan mobilitas fisik;Aktual;Aktivitas & keamanan
+NC-DX-035;Intoleransi aktivitas;Aktual;Aktivitas & keamanan
+NC-DX-036;Keletihan;Aktual;Aktivitas & keamanan
+NC-DX-037;Gangguan pola tidur;Aktual;Istirahat & psikososial
+NC-DX-038;Risiko jatuh;Risiko;Aktivitas & keamanan
+NC-DX-039;Risiko aspirasi;Risiko;Respirasi
+NC-DX-040;Gangguan menelan;Aktual;Respirasi
+NC-DX-041;Defisit nutrisi;Aktual;Nutrisi & pencernaan
+NC-DX-042;Diare;Aktual;Nutrisi & pencernaan
+NC-DX-043;Nausea;Aktual;Nutrisi & pencernaan
+NC-DX-044;Risiko konstipasi;Risiko;Nutrisi & pencernaan
+NC-DX-045;Inkontinensia urin;Aktual;Cairan & eliminasi urin
+NC-DX-046;Inkontinensia fekal;Aktual;Nutrisi & pencernaan
+NC-DX-047;Gangguan komunikasi verbal;Aktual;Kognisi & komunikasi
+NC-DX-048;Gangguan memori;Aktual;Kognisi & komunikasi
+NC-DX-049;Konfusi akut;Aktual;Kognisi & komunikasi
+NC-DX-050;Risiko konfusi akut;Risiko;Kognisi & komunikasi
+NC-DX-051;Perfusi perifer tidak efektif;Aktual;Kardiovaskular & metabolik
+NC-DX-052;Penurunan curah jantung;Aktual;Kardiovaskular & metabolik
+NC-DX-053;Risiko penurunan curah jantung;Risiko;Kardiovaskular & metabolik
+NC-DX-054;Gangguan ventilasi spontan;Aktual;Respirasi
+NC-DX-055;Risiko syok;Risiko;Kardiovaskular & metabolik
+NC-DX-056;Risiko ketidakstabilan kadar glukosa darah;Risiko;Kardiovaskular & metabolik
+NC-DX-057;Ketidakstabilan kadar glukosa darah;Aktual;Kardiovaskular & metabolik
+NC-DX-058;Manajemen kesehatan tidak efektif;Aktual;Perilaku kesehatan
+NC-DX-059;Pemeliharaan kesehatan tidak efektif;Aktual;Perilaku kesehatan
+NC-DX-060;Ketidakpatuhan;Aktual;Perilaku kesehatan
+NC-DX-061;Gangguan persepsi sensori;Aktual;Kognisi & komunikasi
+NC-DX-062;Isolasi sosial;Aktual;Istirahat & psikososial
+NC-DX-063;Harga diri rendah situasional;Aktual;Istirahat & psikososial
+NC-DX-064;Koping tidak efektif;Aktual;Istirahat & psikososial
+NC-DX-065;Berduka;Aktual;Istirahat & psikososial
+NC-DX-066;Gangguan proses keluarga;Aktual;Keluarga
+NC-DX-067;Risiko ketidakberdayaan;Risiko;Istirahat & psikososial
+NC-DX-068;Gangguan tumbuh kembang;Aktual;Tumbuh kembang anak
+NC-DX-069;Risiko gangguan tumbuh kembang;Risiko;Tumbuh kembang anak
+NC-DX-070;Menyusui efektif;Promosi;Maternitas & neonatus
+NC-DX-071;Risiko ikterik neonatus;Risiko;Termoregulasi & infeksi
+NC-DX-072;Ikterik neonatus;Aktual;Termoregulasi & infeksi
+NC-DX-073;Risiko luka tekan;Risiko;Aktivitas & keamanan
+NC-DX-074;Risiko perilaku kekerasan;Risiko;Krisis perilaku
+NC-DX-075;Risiko bunuh diri;Risiko;Krisis perilaku
+NC-DX-076;Pemulihan pascabedah tertunda;Aktual;Luka & pascaoperasi
+NC-DX-077;Risiko cedera;Risiko;Aktivitas & keamanan
+NC-DX-078;Gangguan rasa nyaman;Aktual;Nyeri & kenyamanan
+NC-DX-079;Risiko ketidakseimbangan elektrolit;Risiko;Cairan & eliminasi urin
+NC-DX-080;Gangguan keseimbangan;Aktual;Aktivitas & keamanan
+NC-DX-081;Risiko gangguan neurovaskular perifer;Risiko;Aktivitas & keamanan
+NC-DX-082;Kesiapan peningkatan koping keluarga;Promosi;Keluarga
+NC-DX-083;Risiko defisit perawatan diri;Risiko;Aktivitas & keamanan
