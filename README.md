@@ -161,7 +161,7 @@ Deploy ke Vercel: import repository, tambahkan environment variable `GROQ_API_KE
 
 ## Deployment URL
 
-_Diisi setelah deploy, mis. `https://askep-tutor-ai.vercel.app`._
+**https://askep-ai.vercel.app** (langsung bisa dicoba tanpa login; gunakan menu "Muat contoh kasus")
 
 ## Demo Account
 
