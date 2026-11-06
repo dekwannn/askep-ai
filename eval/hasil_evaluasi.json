@@ -5,7 +5,7 @@
     "retrieval_recall10": 1,
     "redflag_ok": true,
     "model": "openai/gpt-oss-120b",
-    "seconds": 5.825,
+    "seconds": 4.386,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 0.6666666666666666,
@@ -33,16 +33,15 @@
     "retrieval_hit3": true,
     "retrieval_recall10": 1,
     "redflag_ok": true,
-    "model": "openai/gpt-oss-120b",
-    "seconds": 3.808,
+    "model": "qwen/qwen3.8-27b",
+    "seconds": 3.895,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 1,
-    "ai_precision": 1,
+    "ai_precision": 0.5,
     "ai_labels": [
       "Nyeri akut",
-      "Risiko infeksi",
-      "Gangguan mobilitas fisik"
+      "Menyusui tidak efektif"
     ],
     "dropped": 0,
     "expected": [
@@ -59,8 +58,8 @@
     "retrieval_hit3": true,
     "retrieval_recall10": 1,
     "redflag_ok": true,
-    "model": "openai/gpt-oss-20b",
-    "seconds": 2.316,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 4.012,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 1,
@@ -86,17 +85,16 @@
     "retrieval_hit3": true,
     "retrieval_recall10": 0.3333333333333333,
     "redflag_ok": true,
-    "model": "openai/gpt-oss-120b",
-    "seconds": 4.465,
-    "ai_hit1": true,
+    "model": "qwen/qwen3.8-27b",
+    "seconds": 5.3,
+    "ai_hit1": false,
     "ai_hit3": true,
     "ai_recall": 0.6666666666666666,
-    "ai_precision": 0.5,
+    "ai_precision": 0.6666666666666666,
     "ai_labels": [
-      "Nyeri akut",
-      "Gangguan pertukaran gas",
       "Risiko syok",
-      "Pola napas tidak efektif"
+      "Gangguan pertukaran gas",
+      "Nyeri akut"
     ],
     "dropped": 0,
     "expected": [
@@ -115,19 +113,18 @@
     "retrieval_hit3": true,
     "retrieval_recall10": 0.6666666666666666,
     "redflag_ok": true,
-    "model": "openai/gpt-oss-20b",
-    "seconds": 2.202,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 4.271,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 0.3333333333333333,
-    "ai_precision": 0.75,
+    "ai_precision": 0.6666666666666666,
     "ai_labels": [
       "Ketidakstabilan kadar glukosa darah",
-      "Hipovolemia",
       "Risiko infeksi",
-      "Penurunan curah jantung"
+      "Risiko perfusi perifer tidak efektif"
     ],
-    "dropped": 0,
+    "dropped": 1,
     "expected": [
       "Ketidakstabilan kadar glukosa darah",
       "Manajemen kesehatan tidak efektif",
@@ -145,15 +142,16 @@
     "retrieval_recall10": 1,
     "redflag_ok": true,
     "model": "openai/gpt-oss-20b",
-    "seconds": 1.949,
+    "seconds": 1.97,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 1,
-    "ai_precision": 0.6666666666666666,
+    "ai_precision": 0.75,
     "ai_labels": [
       "Nyeri akut",
       "Gangguan mobilitas fisik",
-      "Risiko defisit perawatan diri"
+      "Risiko defisit perawatan diri",
+      "Risiko infeksi"
     ],
     "dropped": 0,
     "expected": [
@@ -172,7 +170,7 @@
     "retrieval_recall10": 0.6666666666666666,
     "redflag_ok": true,
     "model": "openai/gpt-oss-120b",
-    "seconds": 5.308,
+    "seconds": 3.812,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 0.6666666666666666,
@@ -201,7 +199,7 @@
     "retrieval_recall10": 0.3333333333333333,
     "redflag_ok": true,
     "model": "openai/gpt-oss-20b",
-    "seconds": 1.527,
+    "seconds": 1.961,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 0.3333333333333333,
@@ -228,7 +226,7 @@
     "retrieval_recall10": 0.5,
     "redflag_ok": true,
     "model": "openai/gpt-oss-120b",
-    "seconds": 4.162,
+    "seconds": 3.46,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 1,
@@ -253,15 +251,15 @@
     "retrieval_hit3": true,
     "retrieval_recall10": 0.5,
     "redflag_ok": true,
-    "model": "openai/gpt-oss-20b",
-    "seconds": 3.956,
-    "ai_hit1": true,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 3.732,
+    "ai_hit1": false,
     "ai_hit3": true,
     "ai_recall": 0.5,
     "ai_precision": 0.3333333333333333,
     "ai_labels": [
+      "Risiko syok",
       "Ansietas",
-      "Hipovolemia",
       "Defisit pengetahuan"
     ],
     "dropped": 0,
@@ -280,16 +278,16 @@
     "retrieval_hit3": true,
     "retrieval_recall10": 0.5,
     "redflag_ok": true,
-    "model": "openai/gpt-oss-120b",
-    "seconds": 5.736,
+    "model": "openai/gpt-oss-20b",
+    "seconds": 2.017,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 1,
-    "ai_precision": 0.6666666666666666,
+    "ai_precision": 1,
     "ai_labels": [
-      "Risiko perdarahan",
       "Hipertermia",
-      "Risiko defisit nutrisi"
+      "Nausea",
+      "Risiko perdarahan"
     ],
     "dropped": 0,
     "expected": [
@@ -307,15 +305,16 @@
     "retrieval_hit3": true,
     "retrieval_recall10": 1,
     "redflag_ok": true,
-    "model": "qwen/qwen3.8-27b",
-    "seconds": 2.879,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 3.659,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 0.6666666666666666,
     "ai_precision": 1,
     "ai_labels": [
+      "Pola napas tidak efektif",
       "Gangguan pertukaran gas",
-      "Bersihan jalan napas tidak efektif"
+      "Hipertermia"
     ],
     "dropped": 0,
     "expected": [
@@ -334,8 +333,8 @@
     "retrieval_hit3": true,
     "retrieval_recall10": 0.5,
     "redflag_ok": true,
-    "model": "openai/gpt-oss-120b",
-    "seconds": 3.214,
+    "model": "openai/gpt-oss-20b",
+    "seconds": 2.329,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 0.5,
@@ -359,8 +358,8 @@
     "retrieval_hit3": true,
     "retrieval_recall10": 0.3333333333333333,
     "redflag_ok": true,
-    "model": "openai/gpt-oss-20b",
-    "seconds": 2.915,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 4.262,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 0.3333333333333333,
@@ -368,7 +367,7 @@
     "ai_labels": [
       "Hipovolemia",
       "Risiko syok",
-      "Penurunan curah jantung"
+      "Pola napas tidak efektif"
     ],
     "dropped": 0,
     "expected": [
@@ -387,15 +386,16 @@
     "retrieval_hit3": true,
     "retrieval_recall10": 1,
     "redflag_ok": true,
-    "model": "openai/gpt-oss-120b",
-    "seconds": 3.322,
+    "model": "openai/gpt-oss-20b",
+    "seconds": 1.984,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 1,
-    "ai_precision": 1,
+    "ai_precision": 0.6666666666666666,
     "ai_labels": [
+      "Pola napas tidak efektif",
       "Gangguan pertukaran gas",
-      "Pola napas tidak efektif"
+      "Gangguan ventilasi spontan"
     ],
     "dropped": 0,
     "expected": [
@@ -413,17 +413,17 @@
     "retrieval_hit3": true,
     "retrieval_recall10": 0.5,
     "redflag_ok": true,
-    "model": "openai/gpt-oss-20b",
-    "seconds": 1.771,
-    "ai_hit1": false,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 3.193,
+    "ai_hit1": true,
     "ai_hit3": true,
-    "ai_recall": 0.5,
-    "ai_precision": 0.5,
+    "ai_recall": 1,
+    "ai_precision": 1,
     "ai_labels": [
-      "Ansietas",
+      "Gangguan persepsi sensori",
       "Isolasi sosial"
     ],
-    "dropped": 1,
+    "dropped": 0,
     "expected": [
       "Gangguan persepsi sensori",
       "Isolasi sosial"
@@ -437,16 +437,15 @@
     "retrieval_hit3": false,
     "retrieval_recall10": 0,
     "redflag_ok": true,
-    "model": "openai/gpt-oss-120b",
-    "seconds": 3.447,
+    "model": "openai/gpt-oss-20b",
+    "seconds": 2.862,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 1,
-    "ai_precision": 0.3333333333333333,
+    "ai_precision": 0.5,
     "ai_labels": [
       "Risiko perilaku kekerasan",
-      "Ansietas",
-      "Risiko penurunan curah jantung"
+      "Ansietas"
     ],
     "dropped": 0,
     "expected": [
@@ -461,15 +460,16 @@
     "retrieval_hit3": false,
     "retrieval_recall10": 0,
     "redflag_ok": true,
-    "model": "openai/gpt-oss-20b",
-    "seconds": 3.946,
-    "ai_hit1": false,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 3.223,
+    "ai_hit1": true,
     "ai_hit3": true,
-    "ai_recall": 0.5,
-    "ai_precision": 0.5,
+    "ai_recall": 1,
+    "ai_precision": 0.6666666666666666,
     "ai_labels": [
-      "Ansietas",
-      "Harga diri rendah situasional"
+      "Harga diri rendah situasional",
+      "Isolasi sosial",
+      "Ansietas"
     ],
     "dropped": 0,
     "expected": [
@@ -483,16 +483,16 @@
     "retrieval_hit3": true,
     "retrieval_recall10": 0.5,
     "redflag_ok": true,
-    "model": "qwen/qwen3.8-27b",
-    "seconds": 3.22,
+    "model": "openai/gpt-oss-20b",
+    "seconds": 1.946,
     "ai_hit1": true,
     "ai_hit3": true,
-    "ai_recall": 1,
-    "ai_precision": 0.6666666666666666,
+    "ai_recall": 0.5,
+    "ai_precision": 0.3333333333333333,
     "ai_labels": [
-      "Manajemen kesehatan tidak efektif",
       "Defisit pengetahuan",
-      "Defisit nutrisi"
+      "Gangguan memori",
+      "Risiko ketidakstabilan kadar glukosa darah"
     ],
     "dropped": 0,
     "expected": [
@@ -510,8 +510,8 @@
     "retrieval_hit3": true,
     "retrieval_recall10": 1,
     "redflag_ok": true,
-    "model": "qwen/qwen3.8-27b",
-    "seconds": 2.433,
+    "model": "openai/gpt-oss-120b",
+    "seconds": 2.487,
     "ai_hit1": true,
     "ai_hit3": true,
     "ai_recall": 1,

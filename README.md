@@ -112,6 +112,18 @@ AI menemukan diagnosis yang terlewat oleh retrieval pada kasus jiwa (perilaku ke
 Hasil AI dapat sedikit berbeda di setiap run. Rincian per kasus: [eval/HASIL_EVALUASI.md](eval/HASIL_EVALUASI.md)
 (baseline: [eval/HASIL_EVALUASI_baseline.md](eval/HASIL_EVALUASI_baseline.md)).
 
+### Tes ketahanan (input di luar topik dan manipulasi)
+
+`npm run eval:robust` menjalankan 6 kasus jebakan dengan 12 pemeriksaan otomatis: pertanyaan pengetahuan umum
+(presiden Indonesia, ibu kota Prancis), perintah "abaikan instruksi" di kolom jawaban, permintaan menampilkan
+instruksi sistem, permintaan dosis obat, dan perintah tersembunyi di data kasus untuk menambah diagnosis.
+Hasil 6 November 2026: **12/12 pemeriksaan lulus**: AI tidak menjawab pertanyaan di luar topik, tidak membocorkan
+instruksi, tidak memberi dosis obat, dan tetap menganalisis data klinis yang ada. Rincian:
+[eval/HASIL_KETAHANAN.md](eval/HASIL_KETAHANAN.md).
+
+Temuan selama pengujian: model cadangan `gpt-oss-20b` sempat menganggap seluruh kasus tidak relevan bila ada satu
+kalimat di luar topik; aturan prompt diperjelas agar hanya bagian itu yang diabaikan, lalu diuji ulang hingga lulus.
+
 ## Architecture / Data Flow
 
 ```
