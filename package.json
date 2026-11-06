@@ -13,7 +13,8 @@
     "typecheck": "tsc --noEmit",
     "test": "node --experimental-strip-types --test tests/*.test.ts",
     "eval:sheets": "node --experimental-strip-types eval/evaluate.ts sheets",
-    "eval": "node --experimental-strip-types eval/evaluate.ts"
+    "eval": "node --experimental-strip-types eval/evaluate.ts",
+    "eval:robust": "node --experimental-strip-types eval/robustness.ts"
   },
   "dependencies": {
     "next": "^16.4.5",
